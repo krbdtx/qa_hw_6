@@ -96,7 +96,7 @@ def name_func(function, *args):
     res_name = function.__name__.replace('_', ' ').title()
     res_args = ', '.join(args)
     res = f'{res_name} [{res_args}]'
-
+    print(f'\n {res}')
     return res
 
 
